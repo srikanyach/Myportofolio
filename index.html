@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="antialiased">
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <nav class="container navbar">
+            <a href="#" class="navbar-brand"><img src="./assets/sLogo.png" width="50px" height="50px"><b>RIKANYA</b></a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="mobile-menu-button">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu" class="mobile-menu-overlay">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <img src="./assets/sri.jpeg"  width="400px"  height="200px"     alt="Profile Picture" class="hero-profile-pic">
+                <h1 class="hero-title">Hi, I'm <span class="text-yellow-300">Srikanya chandu</span></h1>
+                <p class="hero-subtitle">A passionate Web Developer creating engaging and responsive web experiences.
+                </p>
+                <a href="#projects" class="hero-button" id="viewMyWorkBtn">View My Work</a>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section-padding about-section"  style="background-image: linear-gradient(60deg,red,blue,green);">
+            <div class="container">
+                <h2 class="section-heading" style="color: white;">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image-wrapper">
+                        <img src="./assets/hsri3.jpeg" alt="About Me Image" class="about-image">
+
+                    </div>
+                    <div class="about-text" style="color:white;">
+                        <p>Hello! I am Srikanya, a web developer with a strong passion for building beautiful and
+                            functional web applications. I love bringing ideas to life through code and solving complex
+                            problems.</p>
+                        <p>I'm also eager to expand my expertise into mobile application development and am actively
+                            seeking opportunities in this field. I am a hardworking and passionate job seeker with
+                            strong organizational skills, ready to help teams achieve company goals. Known for
+                            reliability and adaptability, with swift capacity to learn and apply new skills. Proven
+                            success in leading projects from start to finish and contributing to organizational growth
+                            and success.</p>
+                        <p>When I'm not coding, you can find me exploring new hiking trails,
+                            experimenting with new recipes in the kitchen.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-padding skills-section"  style="background-image: linear-gradient(60deg,rgb(151, 39, 185),rgb(243, 228, 12),rgb(189, 23, 17));">
+            <div class="container">
+                <h2 class="section-heading">My Skills</h2>
+                <div class="skills-grid">
+                    <!-- Skill Card 1 -->
+                    <div class="skill-card">
+                        <img src="https://placehold.co/60x60/ffffff/000000?text=HTML" alt="HTML Icon"
+                            class="skill-icon">
+                        <h3 class="skill-title">HTML5</h3>
+                    </div>
+                    <!-- Skill Card 2 -->
+                    <div class="skill-card">
+                        <img src="https://placehold.co/60x60/ffffff/000000?text=CSS" alt="CSS Icon" class="skill-icon">
+                        <h3 class="skill-title">CSS3</h3>
+                    </div>
+                    <!-- Skill Card 3 -->
+                    <div class="skill-card">
+                        <img src="https://placehold.co/60x60/ffffff/000000?text=JS" alt="JavaScript Icon"
+                            class="skill-icon">
+                        <h3 class="skill-title">JavaScript</h3>
+                    </div>
+                    <!-- Skill Card 4 -->
+                    <div class="skill-card">
+                        <img src="https://placehold.co/60x60/ffffff/000000?text=React" alt="React Icon"
+                            class="skill-icon">
+                        <h3 class="skill-title">React</h3>
+                    </div>
+                    <!-- Skill Card 5 -->
+                    <div class="skill-card">
+                        <img src="https://placehold.co/60x60/ffffff/000000?text=Node" alt="Node.js Icon"
+                            class="skill-icon">
+                        <h3 class="skill-title">Node.js</h3>
+                    </div>
+                    <!-- Skill Card 6 -->
+                    <div class="skill-card">
+                        <img src="https://placehold.co/60x60/ffffff/000000?text=Python" alt="Python Icon"
+                            class="skill-icon">
+                        <h3 class="skill-title">Python</h3>
+                    </div>
+                    <!-- Skill Card 7 -->
+                    <div class="skill-card">
+                        <img src="https://placehold.co/60x60/ffffff/000000?text=SQL" alt="SQL Icon" class="skill-icon">
+                        <h3 class="skill-title">SQL</h3>
+                    </div>
+                    <!-- Skill Card 8 -->
+                    <div class="skill-card">
+                        <img src="https://placehold.co/60x60/ffffff/000000?text=Git" alt="Git Icon" class="skill-icon">
+                        <h3 class="skill-title">Git</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-padding projects-section"  style="background-image: linear-gradient(60deg,rgb(29, 238, 10),rgb(7, 82, 117),rgb(153, 15, 180));">
+            <div class="container">
+                <h2 class="section-heading">My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card">
+                        <img src="./assets/Scitizen.jpg" alt="Project 1 Image" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Senior citizens free bus</h3>
+                            <p class="project-description">My aim is to build special buses for old people because they
+                                often struggle to stand during journeys from their source to their destination. These
+                                dedicated buses would provide comfortable seating and improved accessibility, ensuring a
+                                safer and more dignified travel experience for seniors.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                            <a href="#" class="project-link">View Project &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="project-card">
+                        <img src="./assets/ecart.jpeg" alt="Project 2 Image" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Project Title Two</h3>
+                            <p class="project-description">"Add to Cart" application provides essential e-commerce
+                                functionality. It allows users to browse products, add desired items to a virtual
+                                shopping cart, and manage quantities. The cart dynamically calculates the total cost,
+                                offering a clear summary before checkout. This system is fundamental for online retail
+                                and food delivery services.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">React</span>
+                                <span class="project-tag">Node.js</span>
+                                <span class="project-tag">mangodb</span>
+                            </div>
+                            <a href="#" class="project-link">View Project &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="project-card">
+                        <img src="./assets/music.jpeg" alt="Project 3 Image" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Project Title Three</h3>
+                            <p class="project-description">"Music freely heals our minds. In this project, whenever you
+                                press a key, the related music will play."
+
+                                "Music has a freeing, healing effect on our minds. For this project, pressing a key will
+                                play its associated music."
+
+                                "Music offers a free way to heal our minds. This project allows you to hear music
+                                related to each key you press."</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JS</span>
+                            </div>
+                            <a href="#" class="project-link">View Project &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="contact-inner-container">
+                <div class="contact-content">
+                    <h1>GET IN TOUCH</h1>
+               
+                        <p>
+                        Have a question, a project idea, or just want to connect?
+                        I'd love to hear from you!
+                        Feel free to reach out through any of the channels below.
+                        I aim to respond promptly to all inquiries.
+                        Let's build something amazing together!
+                   
+                    </p>
+                    <div class="contact-info-grid">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope icon"></i>
+                            <span class="label">Email</span>
+                            <a href="srikanya515.chandu@gmail.com" class="value">srikanya515.chandu@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-user-friends icon"></i>
+                            <span class="label">Social Media</span>
+                            <span class="value">srikanya5_7_25</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-globe icon"></i>
+                            <span class="label">Website</span>
+                            <a href="https://pink-idette-39.tiiny.site" target="_blank"
+                                class="value">www.resume.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt icon"></i>
+                            <span class="label">Phone Number</span>
+                            <span class="value">9346432794</span>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="contact-footer-text">
+                www.reallygreatsite.com
+            </div>
+        </section>
+    </main>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Srikanya Chandu. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/srikanyach" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/srikanyach" target="_blank"><i class="fab fa-linkedin"></i>
+                    LinkedIn</a>
+                <a href="https://pink-idette-39.tiiny.site" target="_blank"><i class="fab fa-resume"></i> Resume</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+       
+</body>
+
+</html>
